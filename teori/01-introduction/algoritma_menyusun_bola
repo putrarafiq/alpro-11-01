@@ -1,0 +1,10 @@
+Algoritma: menyusun bola
+Langkah-Langkahnya:
+1. Masukkan tangan dari samping lubang ke dalam kotak
+2. Ambil bola pertama
+3. Keluarkan tangan jika sudah ambil bola
+4. Lakukan lagi sampai bola ketiga
+5. Bandingkan masing masing angka tersebut
+6. jika angka yang paling kecil
+- Letakkan paling kiri
+7. Lakukan berulang sampi terurut
