@@ -1,0 +1,16 @@
+Algoritma: mencari bola paling berat
+Langkah-Langkahnya:
+1. Siapkan 4 bola dan beri nama A, B, C, dan D.
+2. Timbang bola A dengan bola B.
+   - Jika A lebih berat, pilih A.
+   - Jika B lebih berat, pilih B.
+   - Jika A dan B sama berat, lanjut ke bola C dan D.
+3. Jika A atau B lebih berat, timbang bola yang lebih berat tersebut dengan bola C.
+   - Jika bola tersebut lebih berat dari C, timbang bola tersebut dengan D.
+   - Jika C lebih berat, pilih C, kemudian selesai.
+   - Jika sama berat, pilih bola tersebut atau D sesuai hasil penimbangan berikutnya.
+4. Jika A dan B sama berat, timbang bola C dengan bola D.
+   - Jika C lebih berat, pilih C.
+   - Jika D lebih berat, pilih D.
+   - Jika sama berat, maka keempat bola memiliki berat yang sama.
+5. Bola yang paling berat telah ditemukan.   
