@@ -1,0 +1,28 @@
+package main
+
+import "fmt"
+
+func main() {
+	var nomor int
+	fmt.Print("Masukkan nomor hari (1-7): ")
+	fmt.Scan(&nomor)
+
+	switch nomor {
+	case 1:
+		fmt.Println("Senin")
+	case 2:
+		fmt.Println("Selasa")
+	case 3:
+		fmt.Println("Rabu")
+	case 4:
+		fmt.Println("Kamis")
+	case 5:
+		fmt.Println("Jumat")
+	case 6:
+		fmt.Println("Sabtu (akhir pekan)")
+	case 7:
+		fmt.Println("Minggu (akhir pekan)")
+	default:
+		fmt.Println("Nomor hari tidak valid")
+	}
+}
